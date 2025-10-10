@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ui_healthbar",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_endgamesprite",
+  "eventList":[],
   "managed":true,
-  "name":"obj_ui_healthbar",
+  "name":"obj_endgamesprite",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_endgame",
+    "path":"sprites/spr_endgame/spr_endgame.yy",
+  },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

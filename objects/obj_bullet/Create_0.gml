@@ -1,1 +1,2 @@
-move_towards_point(mouse_x,mouse_y,8);
+direction = point_direction(x, y, mouse_x, mouse_y);
+speed = 8;

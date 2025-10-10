@@ -17,3 +17,11 @@ else
             else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
                 else if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_down;
 }
+
+if (mouse_check_button_pressed(mb_left)) {
+    var bullet = instance_create_layer(x, y, "Instances_1", obj_bullet);
+
+    var angle = point_direction(x, y, mouse_x, mouse_y); // Angle to mouse
+    bullet.direction = angle;
+    bullet.speed = 12;
+}
