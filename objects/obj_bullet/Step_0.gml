@@ -26,7 +26,6 @@ if (tilemap_get_at_pixel(tilemap, x, y) != 0) {
         x = old_x; // revert X
     }
     
-    // Optional: limit bounces or destroy after X ricochets
-    // bounce_count += 1;
-    // if (bounce_count >= MAX_BOUNCES) instance_destroy();
+    bounce_count += 1;
+    if (bounce_count >= MAX_BOUNCES) instance_destroy();
 }
