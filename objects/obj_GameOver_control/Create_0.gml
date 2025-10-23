@@ -7,5 +7,4 @@ if (!global.resetting_highscore && global.current_score > global.high_score) {
     ini_close();
 }
 
-// Reset the flag in case it was set
 global.resetting_highscore = false;

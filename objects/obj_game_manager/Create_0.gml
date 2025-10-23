@@ -11,3 +11,5 @@ global.current_font = "fnt_GameOver"; // string
 if (!variable_global_exists("resetting_highscore")) {
     global.resetting_highscore = false;
 }
+
+audio_play_sound(EnemyApproaching, 1, true);

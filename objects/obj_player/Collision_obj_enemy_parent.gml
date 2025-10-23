@@ -2,10 +2,12 @@ if (alarm[0] < 0)
 {
     hp -= other.damage;
     alarm[0] = 60;
-    image_blend = c_red
+    image_blend = c_red;
+    audio_play_sound(HitSFX, 1, false);
     
     if (hp <- 0)
 {
-    room_goto(rm_GameOver);
+    audio_stop_sound(EnemyApproaching);
+room_goto(rm_GameOver);
 }
 }

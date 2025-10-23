@@ -1,5 +1,6 @@
 if keyboard_check_pressed(vk_enter) {
     room_goto(Room1)
+    audio_stop_sound(StartMenu);
 }
 
 if keyboard_check_pressed(vk_shift) {
