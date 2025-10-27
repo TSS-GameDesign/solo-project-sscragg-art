@@ -8,3 +8,5 @@ if (!global.resetting_highscore && global.current_score > global.high_score) {
 }
 
 global.resetting_highscore = false;
+
+audio_play_sound(YouDidIt, 1, false);

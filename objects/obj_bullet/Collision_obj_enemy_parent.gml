@@ -1,5 +1,6 @@
 with (other) {
     instance_destroy();
+    audio_play_sound(EnemyDeath, 1, false);
 }
 
 global.score += 10;
