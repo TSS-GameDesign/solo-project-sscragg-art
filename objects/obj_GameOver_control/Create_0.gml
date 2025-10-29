@@ -9,4 +9,7 @@ if (!global.resetting_highscore && global.current_score > global.high_score) {
 
 global.resetting_highscore = false;
 
-audio_play_sound(YouDidIt, 1, false);
+if (global.came_from_gameplay) {
+    audio_play_sound(YouDidIt, 1, false);
+    global.came_from_gameplay = false;
+}
