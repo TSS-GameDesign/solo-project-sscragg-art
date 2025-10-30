@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.180975,
+  "duration":2.043356,
   "name":"YouDidIt",
   "parent":{
     "name":"Sounds",

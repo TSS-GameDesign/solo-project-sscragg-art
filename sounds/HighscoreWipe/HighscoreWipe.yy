@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.71006805,
+  "duration":0.757551,
   "name":"HighscoreWipe",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"HighscoreWipe.wav",
+  "soundFile":"HighscoreWipe.mp3",
   "type":0,
   "volume":1.0,
 }

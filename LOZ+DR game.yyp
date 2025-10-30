@@ -73,6 +73,7 @@
     {"id":{"name":"HealSFX","path":"sounds/HealSFX/HealSFX.yy",},},
     {"id":{"name":"HighscoreWipe","path":"sounds/HighscoreWipe/HighscoreWipe.yy",},},
     {"id":{"name":"HitSFX","path":"sounds/HitSFX/HitSFX.yy",},},
+    {"id":{"name":"SelectSFX","path":"sounds/SelectSFX/SelectSFX.yy",},},
     {"id":{"name":"StartMenu","path":"sounds/StartMenu/StartMenu.yy",},},
     {"id":{"name":"YouDidIt","path":"sounds/YouDidIt/YouDidIt.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},

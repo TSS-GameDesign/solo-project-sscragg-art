@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.36716554,
+  "duration":0.41795918,
   "name":"BulletShoot",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"BulletShoot.wav",
+  "soundFile":"BulletShoot.mp3",
   "type":0,
   "volume":1.0,
 }

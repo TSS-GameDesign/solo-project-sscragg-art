@@ -1,10 +1,12 @@
 if keyboard_check_pressed(vk_enter) {
-    room_goto(Room1)
+    room_goto(Room1);
     audio_stop_sound(StartMenu);
+    audio_play_sound(SelectSFX, 1, false);
 }
 
 if keyboard_check_pressed(vk_shift) {
-    room_goto(rm_HowToPlay)
+    room_goto(rm_HowToPlay);
+    audio_play_sound(SelectSFX, 1, false);
 }
 
 if (flickering) {

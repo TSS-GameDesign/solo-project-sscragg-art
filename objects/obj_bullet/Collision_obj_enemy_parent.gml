@@ -10,4 +10,5 @@ instance_destroy();
 if (instance_exists(obj_enemy_parent) == false) {
     audio_stop_sound(EnemyApproaching);
     room_goto(rm_GameOver);
+    global.came_from_gameplay = true;
 }

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.71006805,
+  "duration":1.3417233,
   "name":"HitSFX",
   "parent":{
     "name":"Sounds",
