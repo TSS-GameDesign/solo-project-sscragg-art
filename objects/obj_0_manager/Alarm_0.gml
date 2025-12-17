@@ -1,0 +1,1 @@
+audio_play_sound(EerieAmbience, 1, true); 

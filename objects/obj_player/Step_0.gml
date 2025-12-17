@@ -1,11 +1,3 @@
-if (!variable_instance_exists(id, "tilemap") || tilemap == -1) {
-    tilemap = layer_tilemap_get_id("Tiles_3");
-    if (tilemap == undefined || tilemap == -1) {
-        show_debug_message("Tilemap layer 'Tiles_3' not found!");
-        return;
-    }
-}
-
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
